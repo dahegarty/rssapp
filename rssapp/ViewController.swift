@@ -31,6 +31,7 @@ class ViewController: UIViewController {
     }
     
     func didPressButton() {
+        //inverts colors
         myButton.backgroundColor = UIColor.redColor()
         myView.backgroundColor = UIColor.greenColor()
     }
